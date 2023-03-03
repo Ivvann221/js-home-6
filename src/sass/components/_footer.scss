@@ -1,0 +1,182 @@
+// 2
+
+
+// .window{
+//     width: 300px;
+//     height: 250px;
+//     background-color: antiquewhite;
+//     position: absolute;
+//     top: 30%;
+//     left: 40%;
+//     padding: 90px 120px;
+//     display: none;
+// }
+// .window__text{
+//     font-weight: 700;
+//     margin-bottom: 20px;
+// }
+
+// 3
+
+// .wrapper{
+//     background-color: green;
+//     width: 100vw;
+//     height: 100vh;
+
+// }
+// .line{
+//     width: 100vw;
+//     height: 100vh;
+//     padding: 60px;
+// }
+// .line__item{
+//     border: 1px solid white;
+//     height: 100%;
+//     position: relative;
+//     overflow: hidden;
+// }
+// .bool{
+//     width: 100px;
+//     height: 100px;
+//     border-radius: 50%;
+//     background-color: white;
+//     transition: 0.6s;
+// position: absolute;
+// top: 0;
+// left: 0;
+// }
+
+// // 4
+// .wrapper{
+// width: 100px;
+// height: 200px;
+// border: 1px solid #000;
+// margin: auto;
+// display: flex;
+// flex-direction: column;
+// align-items: center;
+// position: relative;
+// }
+// .circle{
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     background-color: #5e5d5d;
+//     margin-top: 10px;
+// }
+// .circleColorOne{
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     background-color: red;
+//     position: absolute;
+//     top: 10px;
+// }
+// .circleColorTwo{
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     background-color: rgb(179, 255, 0);
+//     position: absolute;
+//     top: 70px;
+// }
+// .circleColorThre{
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     background-color: rgb(7, 150, 0);
+//     position: absolute;
+//     top: 130px;
+// }
+// button{
+// position: absolute;
+// top: 220px;
+// left: 48.5%;
+// }
+
+// 5
+// .book {
+//     background-color: white;
+//     padding: 10px;
+//     margin-bottom: 10px;
+//     cursor: pointer;
+//    }
+//    .book.active {
+//     background-color: orange;
+//    }
+
+// 6
+
+/* Стилі для кнопок та підказок */
+// .button {
+//     padding: 10px 20px;
+//     background-color: #4CAF50;
+//     color: white;
+//     border: none;
+//     border-radius: 5px;
+//     cursor: pointer;
+// }
+// /* Стилі для підказок */
+// .tooltip {
+//     visibility: hidden;
+//     position: absolute;
+//     z-index: 1;
+//     background-color: black;
+//     color: white;
+//     padding: 5px;
+//     border-radius: 5px;
+//     font-size: 12px;
+//     line-height: 1.2;
+//     opacity: 0.7;
+//     transition: opacity 0.3s ease-in-out;
+// }
+// .tooltip::after {
+//     content: "";
+//     position: absolute;
+//     top: 100%;
+//     left: 50%;
+//     margin-left: -5px;
+//     border-width: 5px;
+//     border-style: solid;
+//     border-color: black transparent transparent transparent;
+// }
+// /* Стилі для підказок, якщо не поміщаються зверху */
+// .tooltip.bottom {
+//     top: 100%;
+// }
+
+//7
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     font-family: Arial, sans-serif;
+//     font-size: 14px;
+//     line-height: 1.5;
+// }
+// li {
+//     position: relative;
+//     padding-left: 20px;
+//     cursor: pointer;
+//     font-weight: bold;
+// }
+// li:before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 12px;
+//     height: 12px;
+//     background: url('folder.png') no-repeat;
+//     background-size: contain;
+// }
+// li.collapsed:before {
+//     background: url('folder-closed.png') no-repeat;
+//     background-size: contain;
+// }
+// ul ul {
+//     display: none;
+// }
+// li:hover {
+//     font-weight: bold;
+// }
